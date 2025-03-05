@@ -415,7 +415,7 @@
 
   </main>
 
-  
+  @include("home.layout.footer");
 
 </body>
 
