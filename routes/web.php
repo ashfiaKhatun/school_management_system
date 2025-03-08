@@ -38,6 +38,10 @@ Route::group(
         Route::get('/about', function() {
             return view('home.about');
         });
+        
+        Route::get('/teachersInfo', function() {
+            return view('home.teachersInfo');
+        });
         /** Add other localized routes here **/
     });
     /** OTHER PAGES THAT SHOULD NOT BE LOCALIZED **/
