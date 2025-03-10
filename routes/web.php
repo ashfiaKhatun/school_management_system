@@ -42,6 +42,10 @@ Route::group(
         Route::get('/teachersInfo', function() {
             return view('home.teachersInfo');
         });
+
+        Route::get('/contactUs', function() {
+            return view('home.contact');
+        });
         /** Add other localized routes here **/
     });
     /** OTHER PAGES THAT SHOULD NOT BE LOCALIZED **/

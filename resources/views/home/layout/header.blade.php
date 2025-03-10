@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - Mentor Bootstrap Template</title>
+    <title>Jatrabari Ideal School</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link href="../home/assets/img/favicon.png" rel="icon">
-    <link href="../home/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+ <!--    <link href="../home/assets/img/favicon.png" rel="icon">
+    <link href="../home/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -26,6 +26,9 @@
 
     <!-- Main CSS File -->
     <link href="../home/assets/css/main.css" rel="stylesheet">
+
+    <!-- Design Css File -->
+     <link rel="stylesheet" href="../home/assets/css/timeline.css">
 
     <!-- =======================================================
   * Template Name: Mentor

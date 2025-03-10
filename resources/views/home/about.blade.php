@@ -12,100 +12,66 @@
                 <div class="container">
                     <div class="row d-flex justify-content-center text-center">
                         <div class="col-lg-8">
-                            <h1>{{ __('msg.about_title') }}<br></h1>
-                            <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+                            <h1>{{ __('msg.about_banner_title') }}</h1>
+                            <p class="mb-0">{{ __('msg.about_banner_description') }}</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <nav class="breadcrumbs">
-                <div class="container">
-                    <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="current">About Us<br></li>
-                    </ol>
-                </div>
-            </nav>
         </div><!-- End Page Title -->
 
-        <!-- About Us Section -->
-        <section id="about-us" class="section about-us">
 
-            <div class="container">
+        <!-- Section: History Timeline -->
+        <section class="container">
+            <ul class="timeline">
 
-                <div class="row gy-4">
+                <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">{{ __('msg.establish_history_2005') }}</h5>
+                    <p class="text-muted mb-2 fw-bold">{{ __('msg.establish_history_year_2005') }}</p>
+                </li>
 
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
-                    </div>
+                <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">{{ __('msg.establish_history_2010') }}</h5>
+                    <p class="text-muted mb-2 fw-bold">{{ __('msg.establish_history_year_2010') }}</p>
+                </li>
 
-                    <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Voluptatem dignissimos provident quasi corporis</h3>
-                        <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
-                        </p>
-                        <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                        </ul>
-                    </div>
+                <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">{{ __('msg.establish_history_2015') }}</h5>
+                    <p class="text-muted mb-2 fw-bold">{{ __('msg.establish_history_year_2015') }}</p>
+                </li>
 
-                </div>
+                <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">{{ __('msg.establish_history_2018') }}</h5>
+                    <p class="text-muted mb-2 fw-bold">{{ __('msg.establish_history_year_2018') }}</p>
+                </li>
 
-            </div>
+                <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">{{ __('msg.establish_history_2020') }}</h5>
+                    <p class="text-muted mb-2 fw-bold">{{ __('msg.establish_history_year_2020') }}</p>
+                </li>
 
-        </section><!-- /About Us Section -->
+                <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">{{ __('msg.establish_history_2023') }}</h5>
+                    <p class="text-muted mb-2 fw-bold">{{ __('msg.establish_history_year_2023') }}</p>
+                </li>
 
-        <!-- Counts Section -->
-        <section id="counts" class="section counts light-background">
+                <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">{{ __('msg.establish_history_present') }}</h5>
+                    <p class="text-muted mb-2 fw-bold">{{ __('msg.establish_history_year_present') }}</p>
+                </li>
 
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
+            </ul>
+        </section><!-- Section: History Timeline -->
 
-                <div class="row gy-4">
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Students</p>
-                        </div>
-                    </div><!-- End Stats Item -->
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Courses</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Events</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Trainers</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Counts Section -->
-
-        <!-- Testimonials Section -->
+        <!-- Mission & Vision Section -->
         <section id="testimonials" class="testimonials section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Testimonials</h2>
-                <p>What are they saying</p>
+                <h2>{{ __('msg.mission_vision_title') }}</h2>
+                <p>{{ __('msg.about_mission') }}</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -142,14 +108,10 @@
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
                                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                                    <h3>Saul Goodman</h3>
-                                    <h4>Ceo &amp; Founder</h4>
-                                    <div class="stars">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
+                                    <h3>{{ __('msg.mission_1') }}</h3>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                                        <span>{{ __('msg.mission_1_description') }}</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -159,15 +121,11 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                    <h3>Sara Wilsson</h3>
-                                    <h4>Designer</h4>
-                                    <div class="stars">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>{{ __('msg.mission_2') }}</h3>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                                        <span>{{ __('msg.mission_2_description') }}</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -177,15 +135,11 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                                    <h3>Jena Karlis</h3>
-                                    <h4>Store Owner</h4>
-                                    <div class="stars">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>{{ __('msg.mission_3') }}</h3>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                                        <span>{{ __('msg.mission_3_description') }}</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -195,33 +149,11 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                                    <h3>Matt Brandon</h3>
-                                    <h4>Freelancer</h4>
-                                    <div class="stars">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>{{ __('msg.mission_4') }}</h3>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                                    <h3>John Larson</h3>
-                                    <h4>Entrepreneur</h4>
-                                    <div class="stars">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                                        <span>{{ __('msg.mission_4_description') }}</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -234,7 +166,149 @@
 
             </div>
 
-        </section><!-- /Testimonials Section -->
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <p>{{ __('msg.about_vision') }}</p>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                            },
+                            "breakpoints": {
+                                "320": {
+                                    "slidesPerView": 1,
+                                    "spaceBetween": 40
+                                },
+                                "1200": {
+                                    "slidesPerView": 2,
+                                    "spaceBetween": 20
+                                }
+                            }
+                        }
+                    </script>
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>{{ __('msg.vision_1') }}</h3>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>{{ __('msg.vision_1_description') }}</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>{{ __('msg.vision_2') }}</h3>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>{{ __('msg.vision_2_description') }}</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>{{ __('msg.vision_3') }}</h3>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>{{ __('msg.vision_3_description') }}</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>{{ __('msg.vision_4') }}</h3>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>{{ __('msg.vision_4_description') }}</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section><!-- /Mission & Vision Section -->
+
+
+
+        <!-- Section: Timeline -->
+        <section class="container">
+
+            <!-- Grid component -->
+            <div >
+                <!-- Milestones -->
+                <div>
+                    <div class="section-title">
+                        <p>{{ __('msg.milestones_title') }}</p>
+                    </div>
+                    <ul class="timeline">
+
+                        <li class="timeline-item mb-5">
+                            <h5>{{ __('msg.milestones_2010') }}</h5>
+                            <p class="text-muted mb-2 fw-bold">{{ __('msg.milestones_year_2010') }}</p>
+                        </li>
+
+                        <li class="timeline-item mb-5">
+                            <h5>{{ __('msg.milestones_2015') }}</h5>
+                            <p class="text-muted mb-2 fw-bold">{{ __('msg.milestones_year_2015') }}</p>
+                        </li>
+
+                        <li class="timeline-item mb-5">
+                            <h5>{{ __('msg.milestones_2018') }}</h5>
+                            <p class="text-muted mb-2 fw-bold">{{ __('msg.milestones_year_2018') }}</p>
+                        </li>
+
+                        <li class="timeline-item mb-5">
+                            <h5>{{ __('msg.milestones_2023') }}</h5>
+                            <p class="text-muted mb-2 fw-bold">{{ __('msg.milestones_year_2023') }}</p>
+                        </li>
+                    </ul>
+                </div>  <!-- /Milestones -->
+
+                <div>
+                        
+                </div>
+            </div>
+        </section>
+        <!-- Section: Timeline -->
+
 
     </main>
 

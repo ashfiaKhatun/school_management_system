@@ -9,11 +9,11 @@
 
         <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="/" class="nav-link {{ request()->is(app('laravellocalization')->getCurrentLocale() . '/') ? 'active' : '' }}">{{ __('msg.home') }}<br></a></li>
+                <li><a href="{{url('/')}}" class="nav-link {{ request()->is(app('laravellocalization')->getCurrentLocale() . '/') ? 'active' : '' }}">{{ __('msg.home') }}<br></a></li>
 
                 <li><a href="{{ url('about') }}" class="nav-link {{ request()->is(app('laravellocalization')->getCurrentLocale() . '/about') ? 'active' : '' }}">{{ __('msg.about') }}</a></li>
 
-                <li><a href="events.html">{{ __('msg.contact') }}</a></li>
+                <li><a href="{{url('contactUs')}}" class="nav-link {{ request()->is(app('laravellocalization')->getCurrentLocale() . '/contactUs') ? 'active' : '' }}">{{ __('msg.contact') }}</a></li>
 
                 <li class="dropdown"><a href="#"><span>{{__('msg.more')}}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>

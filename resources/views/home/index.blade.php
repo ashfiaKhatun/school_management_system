@@ -104,7 +104,7 @@
               {{__('msg.teachers_intro_description')}}
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn"><span> {{__('msg.learn_more')}}</span> <i class="bi bi-chevron-right"></i></a>
+                <a href="{{url('teachersInfo')}}" class="more-btn"><span> {{__('msg.learn_more')}}</span> <i class="bi bi-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
